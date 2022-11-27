@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Constructor</title>
+</head>
+<body>
+
+<div class="text-editor">
+    <div class="text-editor__main-container">
+        <div class="text-editor__left-block">
+            <div class="text-editor__left-block-block type-tag">
+                <div class="text-editor__button-type-title">Элементы</div>
+                <div class="text-editor__button" data-param="h1">H1</div>
+                <div class="text-editor__button" data-param="h2">H2</div>
+                <div class="text-editor__button" data-param="p">P</div>
+            </div>
+            <div class="text-editor__left-block-block style-color">
+                <div class="text-editor__button-type-title">Цвет</div>
+                <div class="text-editor__button" data-param="color:red">RED</div>
+                <div class="text-editor__button" data-param="color:black">BLACK</div>
+                <div class="text-editor__button" data-param="color:blue">BLUE</div>
+            </div>
+            <div class="text-editor__left-block-block style-text">
+                <div class="text-editor__button-type-title">Стиль</div>
+                <div class="text-editor__button" data-param="font-style:normal">Обычный</div>
+                <div class="text-editor__button" data-param="font-style:italic">Курсивный</div>
+                <div class="text-editor__button" data-param="font-style:oblique">Наклонный</div>
+            </div>
+            <div class="text-editor__left-block-block style-text-decoration">
+                <div class="text-editor__button-type-title">Оформление</div>
+                <div class="text-editor__button" data-param="text-decoration:line-through">Перечеркнутый</div>
+                <div class="text-editor__button" data-param="text-decoration:overline">Над текстом</div>
+                <div class="text-editor__button" data-param="text-decoration:underline">Подчеркнутый</div>
+                <div class="text-editor__button" data-param="text-decoration:none">Без</div>
+            </div>
+        </div>
+        <div class="text-editor__center-block">
+            <div class="text-editor__center-title">Рабочее пространство (CTRL+ALT+CLICK - удаляет элемент)</div>
+            <div class="text-editor__center-content"></div>
+
+            <div class="text-editor__center-button">Посмотреть результат</div>
+        </div>
+        <div class="text-editor__right-block">
+            <div class="text-editor__result"></div>
+        </div>
+    </div>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
