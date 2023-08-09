@@ -1,2 +1,2 @@
 # Constructor
-[Ссылка](https://aniskovvitaliy.github.io/text-constructor/)
+[Ссылка](https://aniskovvitaliy.github.io/TextConstructor/)
